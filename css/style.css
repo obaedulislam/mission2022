@@ -1,0 +1,121 @@
+/** All CSS Start **/
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+h1{
+    margin: 0;
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    line-height: 80px;
+    text-shadow: 2px 2px rgba(51, 51, 51, 0.411);
+}
+h2{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #660066;
+    line-height: 60px;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.mar-top{
+    margin-top:30px;
+}
+/** All CSS End **/
+
+/** Hero CSS Start **/
+.hero-section{
+    padding: 100px;
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.hero-content {
+    margin-top: 50px;
+}
+.hero-content p{
+    padding-right: 150px;
+}
+.hero-title{
+    border-left: 7px solid #660066;
+    line-height: 50px;
+}
+.hero-title h1{
+    padding-left: 15px;
+    line-height: 70px;
+} 
+.hero-title  h1 span{
+    font-family: 'Yeseva One', cursive;
+    color: #eace09;
+    text-shadow: 2px 2px rgba(51, 51, 51, 0.411);
+}
+.hero-img{
+    text-align: center;
+}
+.hero-img img{
+    width: 70%;
+}
+.hero-btn a{
+    padding: 5px 30px;
+    background-color: #660066;
+    border: 3px solid #660066;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .3s;
+}
+.hero-btn a:hover{
+    color: #660066;
+    background-color: #fff;
+    border: 3px solid #660066
+}
+/** Hero CSS End **/
+
+
+/** Mission CSS Start **/
+.my-mission{
+    padding: 0 150px 150px;
+}
+.my-mission h2{
+    text-align: center;
+}
+.my-mission h2 span{
+    font-family: 'Poppins', sans-serif;
+    color: #eace09;
+}
+.all-mission{
+    margin-top: 30px;
+    display: flex;
+}
+.single-mission{
+    width: 30%;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 25px;
+}
+.single-mission img{
+    width: 50%;
+}
+.first-bg{
+    background-color: #4f9da610 ;
+}
+.second-bg{
+    background-color: #FF595910 ;
+}
+.third-bg{
+    background-color: #FFF4D6 ;
+}
+
+/** Mission CSS End **/
