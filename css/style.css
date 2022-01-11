@@ -3,6 +3,10 @@
     font-family: 'Poppins', sans-serif;
     color: #333333;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 h1{
     margin: 0;
     font-family: 'Yeseva One', cursive;
@@ -18,34 +22,49 @@ h2{
     color: #660066;
     line-height: 60px;
 }
+h3{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #333;
+}
 h4{
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
 }
-p{
+h6{
+    margin: 0;
+    font-family: 'Yeseva One', cursive;
     font-size: 18px;
-    line-height: 30px;
+    color: #333;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
 }
 .mar-top{
     margin-top:30px;
+}
+input:focus-visible {
+    outline: none;
+}
+textarea:focus-visible {
+    outline: none;
 }
 /** All CSS End **/
 
 /** Hero CSS Start **/
 .hero-section{
-    padding: 100px;
+    padding: 100px 150px;
     display: flex;
 }
 .half-width{
     width: 50%;
-}
-.hero-content {
-    margin-top: 50px;
-}
-.hero-content p{
-    padding-right: 150px;
 }
 .hero-title{
     border-left: 7px solid #660066;
@@ -68,17 +87,17 @@ p{
 }
 .hero-btn a{
     padding: 5px 30px;
-    background-color: #660066;
+    background-image: linear-gradient(#660066, #af3caf );
     border: 3px solid #660066;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 5px;
     text-decoration: none;
-    transition: .3s;
+    transition: .5s;
 }
 .hero-btn a:hover{
     color: #660066;
-    background-color: #fff;
+    background-image: linear-gradient(#ffffff, #ffffff );
     border: 3px solid #660066
 }
 /** Hero CSS End **/
@@ -108,6 +127,10 @@ p{
 .single-mission img{
     width: 50%;
 }
+.single-mission p{
+    font-size: 14px;
+    line-height: 24px;
+}
 .first-bg{
     background-color: #4f9da610 ;
 }
@@ -119,3 +142,142 @@ p{
 }
 
 /** Mission CSS End **/
+
+
+/** Develop Section Start **/
+.my-develop{
+    padding: 0 150px 150px 50px;
+    display: flex;
+
+}
+.my-develop .develop-img{
+    padding-left: 120px;
+    width: 40%;
+    background-image: url(../images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: left;
+
+}
+.my-develop .develop-img img{
+    width: 100%;
+    border-radius: 25px;
+}
+.my-develop .develop-content{
+    margin: 0 0 0 80px;
+    width: 60%;
+}
+/** Develop Section End **/
+
+
+/** Global Community CSS Start **/
+.global-cummunity{
+    padding: 0 50px 150px 150px;
+    display: flex;
+
+}
+.global-cummunity .gcommunity-img{
+    padding-right: 120px;
+    width: 40%;
+    background-image: url(../images/shapes/shape-9.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right bottom ;
+
+}
+.global-cummunity .gcommunity-img img{
+    width: 100%;
+    border-radius: 25px;
+}
+.global-cummunity .gcommunity-content{
+    margin: 0 80px  0 0;
+    width: 60%;
+}
+/** Global Community CSS End **/
+
+
+/** Contact Details CSS Start **/
+.contact-section{
+    padding: 0 150px 150px;
+}
+.contact-section h2{
+    text-align: center;
+}
+.my-contact{
+    margin-top: 50px;
+    display: flex;
+}
+.contact-form{
+    width: 60%;
+}
+.f-name, .y-gender{
+    width: 48%;
+    margin-right: 20px;
+    display: inline-block;
+}
+.l-name, .ph-number {
+    width: 48%;
+    display: inline-block;
+}.contact-form label{
+    font-size: 15px;
+    font-weight: 500;
+}
+input[type=text], input[type=tel], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  .submit-btn input{
+    padding: 5px 30px;
+    background-image: linear-gradient(#660066, #af3caf );
+    border: 3px solid #660066;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .5s;
+  }
+  .submit-btn input:hover{
+    color: #660066;
+    background-image: linear-gradient(#ffffff, #ffffff );
+    border: 3px solid #660066;
+    cursor:pointer;
+  }
+  .contact-info{
+      margin-top: 20px;
+      padding-left: 50px;
+      width: 35%;
+  }
+  .contact-info p{
+      margin: 0;
+      font-size: 14px;
+  }
+  .call, .address {
+      margin-bottom: 20px;
+  }
+  footer{
+      margin: 0;
+      padding: 50px;
+      text-align: center;
+      background-color: #0B0D17;
+  }
+  footer h3{
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    color: #fff;
+  }
+  footer h3 span{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-style: italic;
+    color: #eace09;
+  }
+  footer p{
+      color: #D9DBE1;
+  }
+/** Contact Details CSS End **/
